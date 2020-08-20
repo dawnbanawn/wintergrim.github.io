@@ -1,0 +1,15 @@
+16:9
+
+1280 x 720 (sample size)
+
+1920 x 1080 
+
+2448 x 1377
+
+3264 x 1836 (remake of iphone)
+
+3840 x 2160 (4k)
+
+4128 x 2322 iphone uhd?
+
+4160 x 2340 (moto z)
