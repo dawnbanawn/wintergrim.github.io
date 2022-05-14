@@ -47,22 +47,46 @@ http://www.templatemo.com/tm-483-lumino
                                 <a class="nav-link" href="#tm-section-1">Intro</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link"    href="#tm-section-2">Music</a>
-                                <ul style="text-align: right;"  class="musicHover">
-                                    <a class="nav-link"    href="#tm-section-22">Nattsmyg</a>
-                                    <a class="nav-link"    href="#tm-section-222">Colloblast</a>
+                               
+                               <a  class="nav-link" href="#tm-section-2">Music</a>
+                           
+                                <ul style="text-align: right;"  class="musicClass" id="music">
+                                    
+                                    <a onclick="Buttontoggle()" class="nav-link"   href="#tm-section-22">Nattsmyg</a>
+                                    <a onclick="Buttontoggle()" class="nav-link"    href="#tm-section-222">Colloblast</a>
                                 </ul>
+                                <script type="text/javascript">
+                                    function Buttontoggle()
+                                    {
+                                      var t = document.getElementById("music");
+                                      t.classList.toggle("musicClass");
+                                      var m = document.getElementById("games");
+                                        m.classList.add("musicClass");
+                                    }
+                                </script>
+                                
                             </li>
-                            <li class="nav-item" id="gamesHover">
-                                <a class="nav-link"  href="#tm-section-3">Games</a>
-                                <ul style="text-align: right;"  class="gamesmenu">
-                                    <a class="nav-link"    href="#tm-section-33">Stormshade</a>
-                                    <a class="nav-link"    href="#tm-section-333">Mushroom<br>Musical</a>
+                            <li class="nav-item" >
+                                <a  class="nav-link" href="#tm-section-3">Games</a>
+                                <ul style="text-align: right;" class="musicClass" id="games" >
+                                    <a onclick="Gamestoggle()" class="nav-link"    href="#tm-section-33">Stormshade</a>
+                                    <a onclick="Gamestoggle()" class="nav-link"    href="#tm-section-333">Mushroom<br>Musical</a>
                                     
                                 </ul>
                             </li>
+                            <script type="text/javascript">
+                                function Gamestoggle()
+                                {
+                                  var t = document.getElementById("games");
+                                  t.classList.toggle("musicClass");
+                                  var m = document.getElementById("music");
+                                  m.classList.add("musicClass");
+
+                                  //
+                                }
+                            </script>
                             <li class="nav-item">
-                                <a class="nav-link" href="#tm-section-4">Contact</a>
+                                <a class="nav-link" href="#tm-section-8">Contact</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link external" href="http://nattsmyg.freeforums.net/">Forum</a>
@@ -85,7 +109,7 @@ http://www.templatemo.com/tm-483-lumino
            <div class="row">
                 <div class="tm-intro">
 
-                    <section id="tm-section-1">                        
+                    <section id="tm-section-1" >                        
                         <div class="tm-container text-xs-center tm-section-1-inner">
                             <img src="img/index_logo_01.png" alt="Logo" class="tm-logo" width="80%"><br>
                             
@@ -96,6 +120,26 @@ http://www.templatemo.com/tm-483-lumino
    		</div>
             </div>
 
+            <div class="row music-bg">
+
+                <section id="tm-section-2">                        
+                    <div class="tm-container text-xs-center tm-section-2-inner">
+                        <br>
+                            <h2 class="blue-text tm-title"  style="color: white;">Music Projects</h2>
+                        <a href="#tm-section-4"> <img src="img/NATTSMYG11111.png" alt="Music" class="tm-logo" width="256"></a>
+            <a href="#tm-section-5"> <img src="img/Colloblast-2.png" alt="CardGame" class="tm-logo" width="256"></a><br>
+                        
+                          
+                    </div>                                               
+               </section>
+            </div>
+            
+
+        
+
+
+
+
 
 
 
@@ -103,8 +147,8 @@ http://www.templatemo.com/tm-483-lumino
 
             <div class="row nattsmyg-bg">
 
-                <section id="tm-section-2" class="tm-section">
-                    <div class="tm-container text-xs-center" id="tm-section-22">
+                <section id="tm-section-4"class="tm-section">
+                    <div class="tm-container text-xs-center">
                         <img src="img/NATTSMYG11111.png" alt="MM" class="tm-logo" width="50%"><br>                        
 <!--<p class="margin-b-5">Android/Apple Mobile Game.</p>-->
                         <p class="text-xs-center tm-page-2-p tm-page-2-subtitle" style="color: darkgrey;">
@@ -123,9 +167,10 @@ http://www.templatemo.com/tm-483-lumino
                     <img src="img/nattsmyg01.jpg" alt="Image" class="img-fluid tm-img-2-col">
                 
                     <p class="text-left tm-description" style="color: darkgrey;">
-                        Nattsmyg is a music project formed by Dan Heikenberg in 2005. The music ranges from acoustic
+                        Nattsmyg is a music project formed in 2005 by Dan Heikenberg. The music ranges from acoustic
                         to folk/black metal, and the lyrics are often about nature and swedish folklore. 
-                        Several musicians have previously contributed to the albums. 
+                        Several musicians have previously contributed to the albums and demos: 
+                        Linn Carlshaf, Adam Nilsson, Robin Fors, Jacob Bramsell and Anton Hinterlach.
                     </p>
                     </p>   
                 </div> 
@@ -184,7 +229,7 @@ http://www.templatemo.com/tm-483-lumino
 
 <div class="row colloblast-bg">
 
-    <section id="tm-section-222" class="tm-section">
+    <section id="tm-section-5" class="tm-section">
         <div class="tm-container text-xs-center" >
             <img src="img/Colloblast-2.png" alt="MM" class="tm-logo" width="50%"><br>                        
             <p class="text-xs-center tm-page-2-p tm-page-2-subtitle" style="color: lightgrey;">
@@ -199,7 +244,7 @@ http://www.templatemo.com/tm-483-lumino
         <img src="img/colloblast01.jpg" alt="Image" class="img-fluid tm-img-2-col">
     
         <p class="text-left tm-description" style="color: lightgrey;">
-            Colloblast is a metal music project formed by Dan Heikenberg in 2020, with lyrics about nature and evolution.
+            Colloblast is a metal music project formed by Dan Heikenberg in 2020, with lyrics about space, the climate, and evolution.
             It exists both as a metal band with Dan Heikenberg (vocals/guitar), Anton Ryberg (Vocals/Bass) and Ludwig Havasi (Drums),
             and as a metal/drum&bass project with only Dan.
         </p>
@@ -250,13 +295,25 @@ http://www.templatemo.com/tm-483-lumino
 
 
 
+<div class="row music-bg">
 
+    <section id="tm-section-3">                        
+        <div class="tm-container text-xs-center tm-section-2-inner">
+            <br>
+                <h2 class="blue-text tm-title"  style="color: white;">Game Projects</h2>
+            <a href="#tm-section-6"> <img src="img/1-7.png" alt="Music" class="tm-logo" width="256"></a>
+<a href="#tm-section-7"> <img src="img/Logo2min11hue.png" alt="CardGame" class="tm-logo" width="256"></a><br>
+            
+              
+        </div>                                               
+   </section>
+</div>
 
 
 <!-- row -->
 
-<div class="row stormshade-bg" id="tm-section-3">
-    <div id="tm-section-33" class="tm-section">
+<div class="row stormshade-bg" >
+    <div id="tm-section-6" class="tm-section">
       <div class="col-md-12">
           <div class="tm-container text-xs-center">
           <img src="img/1-7.png" alt="MM" class="tm-logo" width="50%"><br>  
@@ -326,7 +383,7 @@ http://www.templatemo.com/tm-483-lumino
 
             <div class="row mushroommusical-bg">
 
-                <section id="tm-section-333" class="tm-section">
+                <section id="tm-section-7" class="tm-section">
                     <div class="tm-container text-xs-center">
                         <img src="img/Logo2min11hue.png" alt="MM" class="tm-logo" width="50%"><br>                        
                         <p class="text-xs-center tm-page-2-p tm-page-2-subtitle">
@@ -391,7 +448,7 @@ http://www.templatemo.com/tm-483-lumino
       
         <div class="row contact-bg">
 
-            <section id="tm-section-4" class="tm-section">
+            <section id="tm-section-8" class="tm-section">
                 <div class="tm-container text-xs-center">
                     <h2 class="blue-text tm-title">Contact</h2>
                    <!-- <p class="margin-b-5">Various links to related web pages.</p><br> -->
