@@ -4,8 +4,7 @@
     <meta http-equiv="content-type" content="text/html" charset="ISO-8859-1"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Wintergrim</title>
+    <title>Wintergrim Entertainment</title>
     <link rel="icon" href="favicon.png">
 <!--
 Lumino Theme
@@ -32,8 +31,7 @@ http://www.templatemo.com/tm-483-lumino
             <div class="row">
               
                 <div class="tm-navbar-container">
-                
-                <!-- navbar style="overflow: hidden;"  -->
+
                 <nav class="navbar navbar-full navbar-fixed-top">
 
                     <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
@@ -43,35 +41,34 @@ http://www.templatemo.com/tm-483-lumino
                     <div class="collapse navbar-toggleable-sm" id="tmNavbar">                            
 
                         <ul class="nav navbar-nav">
+
                             <li class="nav-item">
                                 <a class="nav-link" href="#top">Intro</a>
                             </li>
-                            <li class="nav-item">
-                               
-                               <a  class="nav-link" href="#tm-section-2">Music</a>
-                           
-                                <ul style="text-align: right;"  class="musicClass" id="music">
-                                    
+
+                            <li class="nav-item">                               
+                               <a id="musicButton" class="nav-link" href="#tm-section-2">Music</a>                           
+                                <ul style="text-align: right;"  class="musicClass" id="music">                                    
                                     <a onclick="Buttontoggle()" class="nav-link"   href="#tm-section-22">Nattsmyg</a>
                                     <a onclick="Buttontoggle()" class="nav-link"    href="#tm-section-222">Colloblast</a>
                                 </ul>
                                 <script type="text/javascript">
                                     function Buttontoggle()
                                     {
-                                      var t = document.getElementById("music");
-                                      t.classList.toggle("musicClass");
-                                      var m = document.getElementById("games");
+                                        var t = document.getElementById("music");
+                                        t.classList.toggle("musicClass");
+                                        var m = document.getElementById("games");
                                         m.classList.add("musicClass");
                                     }
                                 </script>
                                 
                             </li>
+
                             <li class="nav-item" >
-                                <a  class="nav-link" href="#tm-section-3">Games</a>
+                                <a id="gamesButton" class="nav-link" href="#tm-section-3">Games</a>
                                 <ul style="text-align: right;" class="musicClass" id="games" >
                                     <a onclick="Gamestoggle()" class="nav-link"    href="#tm-section-33">Stormshade</a>
                                     <a onclick="Gamestoggle()" class="nav-link"    href="#tm-section-333">Mushroom<br>Musical</a>
-                                    
                                 </ul>
                             </li>
                             <script type="text/javascript">
@@ -80,68 +77,46 @@ http://www.templatemo.com/tm-483-lumino
                                   var t = document.getElementById("games");
                                   t.classList.toggle("musicClass");
                                   var m = document.getElementById("music");
-                                  m.classList.add("musicClass");
-
-                                  //
+                                  m.classList.add("musicClass");                                  
                                 }
                             </script>
+
                             <li class="nav-item">
                                 <a class="nav-link" href="#tm-section-8">Contact</a>
                             </li>
+
                             <li class="nav-item">
                                 <a class="nav-link external" href="http://nattsmyg.freeforums.net/">Forum</a>
                             </li>
 
                         </ul>
-
-                    </div>
-                  
+                    </div>                  
                 </nav>
-
-                </div>  
-
+                </div>
            </div>
-
-
-
-
 
            <div class="row">
                 <div class="tm-intro">
-
                     <section id="tm-section-1" >                        
                         <div class="tm-container text-xs-center tm-section-1-inner">
                             <img src="img/index_logo_01.png" alt="Logo" class="tm-logo" width="80%"><br>
-                            
-                              
                         </div>                                               
                    </section>
-
-   		</div>
+   		        </div>
+                <div id="musicLogos">
+                    <div class="row music-bg" style="border: solid 5px black">
+                        <section id="tm-section-2">                        
+                            <div class="tm-container text-xs-center tm-section-2-inner">
+                                <br>
+                                    <h2 class="blue-text tm-title"  style="color: white;">Music</h2>
+                                <a href="#tm-section-4"> <img src="img/NATTSMYG11111.png" id="logoNattsmyg" alt="Music" class="tm-logo" width="256"></a>
+                                <a href="#tm-section-5"> <img src="img/Colloblast-2v2.png" id="logoColloblast" alt="CardGame" class="tm-logo" width="256"></a><br>
+                            </div>                                               
+                        </section>
+                    </div>
+                </div>
+                
             </div>
-
-            <div class="row music-bg" style="border: solid 5px black">
-
-                <section id="tm-section-2">                        
-                    <div class="tm-container text-xs-center tm-section-2-inner">
-                        <br>
-                            <h2 class="blue-text tm-title"  style="color: white;">Music</h2>
-                        <a href="#tm-section-4"> <img src="img/NATTSMYG11111.png" alt="Music" class="tm-logo" width="256"></a>
-            <a href="#tm-section-5"> <img src="img/Colloblast-2v2.png" alt="CardGame" class="tm-logo" width="256"></a><br>
-                        
-                          
-                    </div>                                               
-               </section>
-            </div>
-            
-
-        
-
-
-
-
-
-
 
 <!-- Nattsmyg -->
 
@@ -150,7 +125,6 @@ http://www.templatemo.com/tm-483-lumino
                 <section id="tm-section-4"class="tm-section">
                     <div class="tm-container text-xs-center">
                         <img src="img/NATTSMYG11111.png" alt="MM" class="tm-logo" width="50%"><br>                        
-<!--<p class="margin-b-5">Android/Apple Mobile Game.</p>-->
                         <p class="text-xs-center tm-page-2-p tm-page-2-subtitle" style="color: darkgrey;">
                             Acoustic & folk/black metal
                         </p> 
@@ -158,28 +132,22 @@ http://www.templatemo.com/tm-483-lumino
                             <iframe class="embed-responsive-item" style="width: 100%;" src="https://www.youtube.com/embed/uybY2Vdnx3s"></iframe>
                     </div>   
                 </section>
-            
-
-
 
             <div class="col-md-6 margin-bottom-sm-8">  
                 <div class="tm-2-col-box-left">
                     <img src="img/nattsmyg01.jpg" alt="Image" class="img-fluid tm-img-2-col">
-                
-                    <p class="text-left tm-description" style="color: darkgrey;">
+                        <p class="text-left tm-description" style="color: darkgrey;">
                         Nattsmyg is a music project formed in 2005 by Dan Heikenberg. The music ranges from acoustic
                         to folk/black metal, and the lyrics are often about nature and swedish folklore. 
                         Several musicians have previously contributed to the albums and demos: 
                         Linn Carlshaf, Adam Nilsson, Robin Fors, Jacob Bramsell and Anton Hinterlach.
-                    </p>
-                    </p>   
-                </div> 
-            </div>  
+                        </p>                      
+                    </div> 
+                </div>  
 
             <div class="col-md-6">
                 <div>
                     <img src="img/nattsmyg02.jpg" alt="Image" class="img-fluid tm-img-2-col">
-           
                     <table class="table table-striped">
                         <tbody>
                             <tr>
@@ -220,240 +188,228 @@ http://www.templatemo.com/tm-483-lumino
             </div>
         </div>
 
-
-
 <!-- Colloblast -->
 
+        <div class="row colloblast-bg">
 
-
-
-<div class="row colloblast-bg">
-
-    <section id="tm-section-5" class="tm-section">
-        <div class="tm-container text-xs-center" >
-            <img src="img/Colloblast-2v2.png" alt="MM" class="tm-logo" width="50%"><br>                        
-            <p class="text-xs-center tm-page-2-p tm-page-2-subtitle" style="color: lightgrey;">
-                Metal music
-            </p> 
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" style="width: 100%;" src="https://www.youtube.com/embed/W8BaE5S53RI"></iframe>
-        </div>   
-    </section>
-<div class="col-md-6 margin-bottom-sm-8">  
-    <div class="tm-2-col-box-left">
-        <img src="img/colloblast01.jpg" alt="Image" class="img-fluid tm-img-2-col">
-    
-        <p class="text-left tm-description" style="color: lightgrey;">
-            Colloblast is a metal music project formed by Dan Heikenberg in 2020, with lyrics about space, the climate, and evolution.
-            It exists both as a metal band with Dan Heikenberg (vocals/guitar), Anton Ryberg (Vocals/Bass) and Ludwig Havasi (Drums),
-            and as a metal/drum&bass project with only Dan.
-        </p>
-        </p>   
-    </div> 
-</div>  
-
-<div class="col-md-6">
-    <div>
-        <img src="img/colloblast02.jpg" alt="Image" class="img-fluid tm-img-2-col">
-
-        <table class="table table-striped">
-            <tbody>
-                <tr>
-                    <td><a class="nav-link external" href="https://teespring.com/stores/nattsmyg"><img src="img/icons/icon_teespring.png" alt="Image" width=30px height=30px"> Visit the store.</a></td>
-                    <td></td>
-
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a class="nav-link external" href="https://open.spotify.com/artist/7gZVz8KLGJreM623t9VRUj"><img src="img/icons/icon_spotify.png" alt="Image" width=30px height=30px> Colloblast on Spotify.</a></td>
-                    <td></td>
-                    <!--<td>Listen on Bandcamp:</td>
-                    <td style="text-align: right;">Click here</td>-->
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a class="nav-link external" href="https://www.facebook.com/Colloblast-2198469430399918/"><img src="img/icons/icon_facebook.png" alt="Image" width=30px height=30px">  Colloblast on Facebook.</a></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-
-            </tbody>
-        </table>
-    </div>
-</div>
-</div>
-
-
-
-
-<div class="row music-bg" style="border: solid 5px black">
-
-    <section id="tm-section-3">                        
-        <div class="tm-container text-xs-center tm-section-2-inner">
+            <section id="tm-section-5" class="tm-section">
+                <div class="tm-container text-xs-center" >
+                    <img src="img/Colloblast-2v2.png" alt="MM" class="tm-logo" width="50%"><br>                        
+                    <p class="text-xs-center tm-page-2-p tm-page-2-subtitle" style="color: lightgrey;">
+                        Metal music
+                    </p> 
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" style="width: 100%;" src="https://www.youtube.com/embed/W8BaE5S53RI"></iframe>
+                </div>   
+            </section>
+        <div class="col-md-6 margin-bottom-sm-8">  
+            <div class="tm-2-col-box-left">
+                <img src="img/colloblast01.jpg" alt="Image" class="img-fluid tm-img-2-col">
             
-            <br>
-                <h2 class="blue-text tm-title"  style="color: white;">Games</h2>
-            <a href="#tm-section-6"> <img src="img/1-7v2.png" alt=".." class="tm-logo" width="256"></a>
-<a href="#tm-section-7"> <img src="img/Logo2min11hue.png" alt=".." class="tm-logo" width="256"></a><br>
-<a href="#tm-section-9"> <img src="img/Cosmic-1.png" alt=".." class="tm-logo" width="256"></a><br>
-            
-                         
+                <p class="text-left tm-description" style="color: lightgrey;">
+                    Colloblast is a metal music project formed by Dan Heikenberg in 2020, with lyrics about space, the climate, and evolution.
+                    It exists both as a metal band with Dan Heikenberg (vocals/guitar), Anton Ryberg (Vocals/Bass) and Ludwig Havasi (Drums),
+                    and as a metal/drum&bass project with only Dan.
+                </p>
+                </p>   
+            </div> 
         </div>  
-                                                     
-   </section>
-   
-</div>
+
+        <div class="col-md-6">
+            <div>
+                <img src="img/colloblast02.jpg" alt="Image" class="img-fluid tm-img-2-col">
+
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td><a class="nav-link external" href="https://teespring.com/stores/nattsmyg"><img src="img/icons/icon_teespring.png" alt="Image" width=30px height=30px"> Visit the store.</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><a class="nav-link external" href="https://open.spotify.com/artist/7gZVz8KLGJreM623t9VRUj"><img src="img/icons/icon_spotify.png" alt="Image" width=30px height=30px> Colloblast on Spotify.</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><a class="nav-link external" href="https://www.facebook.com/Colloblast-2198469430399918/"><img src="img/icons/icon_facebook.png" alt="Image" width=30px height=30px">  Colloblast on Facebook.</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        </div>
+
+        <div class="row music-bg" style="border: solid 5px black">
+            <div id="gamesLogos">
+            <section id="tm-section-3">                        
+                <div class="tm-container text-xs-center tm-section-2-inner">
+                    
+                    <br>
+                        <h2 class="blue-text tm-title"  style="color: white;">Games</h2>
+                    <a href="#tm-section-6"> <img src="img/1-7v2.png" id="logoStormshade" alt=".." class="tm-logo" width="256"></a>
+        <a href="#tm-section-7"> <img src="img/Logo2min11hue.png" id="logoCosmicCompanions" alt=".." class="tm-logo" width="256"></a><br>
+        <a href="#tm-section-9"> <img src="img/Cosmic-1.png" id="logoMushroomMusical" alt=".." class="tm-logo" width="256"></a><br>
+                    
+                                
+                </div>  
+                                                            
+        </section>
+        </div>
+        </div>
 
 
-<!-- row -->
+        <!-- row -->
 
-<div class="row stormshade-bg" >
-    <div id="tm-section-6" class="tm-section">
-      <div class="col-md-12">
-          <div class="tm-container text-xs-center">
-          <img src="img/1-7v2.png" alt="MM" class="tm-logo" width="50%"><br>  
-      </div>
-          <p class="text-xs-center tm-page-2-p tm-page-2-subtitle" style="color: lightgrey;">
-              Strategic Card Game (physical)
-          </p> 
-          <img src="img/tm-1800x600-01.jpg" class="img-fluid tm-banner-img" alt="Image"><br><br>   
+        <div class="row stormshade-bg" >
+            <div id="tm-section-6" class="tm-section">
+            <div class="col-md-12">
+                <div class="tm-container text-xs-center">
+                <img src="img/1-7v2.png" alt="MM" class="tm-logo" width="50%"><br>  
+            </div>
+                <p class="text-xs-center tm-page-2-p tm-page-2-subtitle" style="color: lightgrey;">
+                    Strategic Card Game (physical)
+                </p> 
+                <img src="img/tm-1800x600-01.jpg" class="img-fluid tm-banner-img" alt="Image"><br><br>   
 
-          
-      </div>
-
-          
-          <div class="col-md-6 margin-bottom-sm-8">  
-              <div class="tm-2-col-box-left">
-                  <img src="img/tm-700x350-01.jpg" alt="Image" class="img-fluid tm-img-2-col">
-              
-                  <p class="text-left tm-description" style="color: lightgrey;">
-                      Stormshade is an advanced turn-based strategic card game for up to 2 players/deck, 
-                      made by Dan Heikenberg, with artwork by Michelle Helen Tolo and Johan Aronson.
-      Find areas and paths, build structures, hire workers and warriors,
-      and use tactics and weather to your advantage.
-                  </p>
-                  <p class="text-left tm-description" style="color: lightgrey;">
-                      One deck is enough for two players to play against each other, by sharing a deck.                         
-                      It is also possible to play with one deck each. That means you can play
-                      Asheim vs Vanheim if you have both these decks.  
-                  </p>
-                  <p class="text-left tm-description" style="color: lightgrey;">
-                      This game will be printed at a later time, or sooner if there is a growing demand.
-                  </p>
-              </div> 
-          </div>  
-
-          <div class="col-md-6">
-              <div>
-                  <img src="img/tm-700x350-02.jpg" alt="Image" class="img-fluid tm-img-2-col">
-         
-                  <table class="table table-striped">
-                      <tbody>
-                          <tr>
-                              <td>Deck 1: Wolves Of Winter (Asheim)</td>
-                              <td style="text-align: right;">n/a</td>
-                          </tr>
-                          <tr>
-                              <td></td>
-                              <td></td>
-                          </tr>
-                          <tr>
-                              <td>Deck 2: Spirits Of Summer (Vanheim)</td>
-                              <td style="text-align: right;">n/a</td>
-                          </tr>
-                          <tr>
-                              <td></td>
-                              <td></td>
-                          </tr>
-                          <!--  <tr>
-                            <td>Visit the shop:</td>
-                              <td  style="text-align: right;">Click here </td> 
-                          </tr> -->
-                      </tbody>
-                  </table>
-              </div>
-          </div>
-      </div>                
-  </div>
-<!-- COosmic COmpanions -->
-
-
-<div class="row cosmiccompanions-bg">
-
-    <section id="tm-section-9" class="tm-section">
-        <div class="tm-container text-xs-center">
-            <img src="img/Cosmic-1.png" alt="MM" class="tm-logo" width="50%"><br>                        
-            <p class="text-xs-center tm-page-2-p tm-page-2-subtitle" style="color: lightgrey;">
-                Android/Steam Game
-            </p> 
-            <!--<div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" style="width: 100%;" src="https://www.youtube.com/embed/a5a63mSjTJI"></iframe>
-        </div> -->  
-    </section>
-
-
-
-
-<div class="col-md-6 margin-bottom-sm-8">  
-    <div class="tm-2-col-box-left">
-        <img src="img/cosmiccompanions01.jpg" alt="Image" class="img-fluid tm-img-2-col">
-    
-        <p class="text-left tm-description" style="color: lightgrey;">
-            Cosmic Companions is a life simulator, made by Dan Heikenberg in 2022, in which you are an astronaut, travelling the universe
-            to explore new worlds, and make first contact with aliens.
-        </p>
-        <p class="text-left tm-description" style="color: lightgrey;">
-            Explore, research, build and invite your new cosmic companions to your growing space community.
-        </p>
-        <p class="text-left tm-description" style="color: lightgrey;">
-            This game is currently in early production, and there is no release date yet.
-        </p>
-        </p>   
-    </div> 
-</div>  
-
-<div class="col-md-6">
-    <div>
-        <img src="img/cosmiccompanions02.jpg" alt="Image" class="img-fluid tm-img-2-col">
-
-        <table class="table table-striped">
-            <tbody>
-                <tr>
-                    <td>Visit the store:</td>
-                    <td style="text-align: right;">n/a</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
                 
-                <tr>
-                    <td>Listen to the OST:</td>
-                    <td style="text-align: right;">n/a</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
+            </div>
+
                 
-                <tr>
-                    <td>Download the game:</td>
-                    <td style="text-align: right;">n/a</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-</div>
+                <div class="col-md-6 margin-bottom-sm-8">  
+                    <div class="tm-2-col-box-left">
+                        <img src="img/tm-700x350-01.jpg" alt="Image" class="img-fluid tm-img-2-col">
+                    
+                        <p class="text-left tm-description" style="color: lightgrey;">
+                            Stormshade is an advanced turn-based strategic card game for up to 2 players/deck, 
+                            made by Dan Heikenberg, with artwork by Michelle Helen Tolo and Johan Aronson.
+            Find areas and paths, build structures, hire workers and warriors,
+            and use tactics and weather to your advantage.
+                        </p>
+                        <p class="text-left tm-description" style="color: lightgrey;">
+                            One deck is enough for two players to play against each other, by sharing a deck.                         
+                            It is also possible to play with one deck each. That means you can play
+                            Asheim vs Vanheim if you have both these decks.  
+                        </p>
+                        <p class="text-left tm-description" style="color: lightgrey;">
+                            This game will be printed at a later time, or sooner if there is a growing demand.
+                        </p>
+                    </div> 
+                </div>  
+
+                <div class="col-md-6">
+                    <div>
+                        <img src="img/tm-700x350-02.jpg" alt="Image" class="img-fluid tm-img-2-col">
+                
+                        <table class="table table-striped">
+                            <tbody>
+                                <tr>
+                                    <td>Deck 1: Wolves Of Winter (Asheim)</td>
+                                    <td style="text-align: right;">n/a</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Deck 2: Spirits Of Summer (Vanheim)</td>
+                                    <td style="text-align: right;">n/a</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <!--  <tr>
+                                    <td>Visit the shop:</td>
+                                    <td  style="text-align: right;">Click here </td> 
+                                </tr> -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>                
+        </div>
+        <!-- COosmic COmpanions -->
+
+
+        <div class="row cosmiccompanions-bg">
+
+            <section id="tm-section-9" class="tm-section">
+                <div class="tm-container text-xs-center">
+                    <img src="img/Cosmic-1.png" alt="MM" class="tm-logo" width="50%"><br>                        
+                    <p class="text-xs-center tm-page-2-p tm-page-2-subtitle" style="color: lightgrey;">
+                        Android/Steam Game
+                    </p> 
+                    <!--<div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" style="width: 100%;" src="https://www.youtube.com/embed/a5a63mSjTJI"></iframe>
+                </div> -->  
+            </section>
+
+
+
+
+        <div class="col-md-6 margin-bottom-sm-8">  
+            <div class="tm-2-col-box-left">
+                <img src="img/cosmiccompanions01.jpg" alt="Image" class="img-fluid tm-img-2-col">
+            
+                <p class="text-left tm-description" style="color: lightgrey;">
+                    Cosmic Companions is a life simulator, made by Dan Heikenberg in 2022, in which you are an astronaut, travelling the universe
+                    to explore new worlds, and make first contact with aliens.
+                </p>
+                <p class="text-left tm-description" style="color: lightgrey;">
+                    Explore, research, build and invite your new cosmic companions to your growing space community.
+                </p>
+                <p class="text-left tm-description" style="color: lightgrey;">
+                    This game is currently in early production, and there is no release date yet.
+                </p>
+                </p>   
+            </div> 
+        </div>  
+
+        <div class="col-md-6">
+            <div>
+                <img src="img/cosmiccompanions02.jpg" alt="Image" class="img-fluid tm-img-2-col">
+
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td>Visit the store:</td>
+                            <td style="text-align: right;">n/a</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Listen to the OST:</td>
+                            <td style="text-align: right;">n/a</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Download the game:</td>
+                            <td style="text-align: right;">n/a</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        </div>
 
 
 
@@ -632,13 +588,13 @@ http://www.templatemo.com/tm-483-lumino
         </div> <!-- container-fluid -->
         
         <!-- load JS files -->
-        
+        <script src="js/wintergrim.js"></script>  
         <script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
         <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap, http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h --> 
         <script src="js/bootstrap.min.js"></script>                 <!-- Bootstrap (http://v4-alpha.getbootstrap.com/) -->
         <script src="js/jquery.singlePageNav.min.js"></script>      <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
-        <script src="js/jquery.magnific-popup.min.js"></script>     <!-- Magnific pop-up (http://dimsemenov.com/plugins/magnific-popup/) -->
-        
+        <script src="js/jquery.magnific-popup.min.js"></script>    <!-- Magnific pop-up (http://dimsemenov.com/plugins/magnific-popup/) -->
+         
         <!-- Templatemo scripts -->
         <script>     
        
@@ -709,6 +665,7 @@ http://www.templatemo.com/tm-483-lumino
                 /* Smooth Scrolling
                  * https://css-tricks.com/snippets/jquery/smooth-scrolling/
                 --------------------------------------------------------------*/
+                 
                 $('a[href*="#"]:not([href="#"])').click(function() {
                     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
                         && location.hostname == this.hostname) {
@@ -725,10 +682,11 @@ http://www.templatemo.com/tm-483-lumino
                         }
                     }
                 }); 
+                
 
               
-                /* Magnific pop up
-                ------------------------- */
+                 //Magnific pop up
+               // ------------------------- 
                 $('.tm-img-grid').magnificPopup({
                     delegate: 'a', // child items selector, by clicking on it popup will open
                     type: 'image',
