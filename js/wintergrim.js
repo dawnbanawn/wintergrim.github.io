@@ -19,41 +19,40 @@ gamesLogosId = document.getElementById("gamesLogos");
 gamesLogosButton = document.getElementById("gamesButton");
 
 musicLogosButton.addEventListener("click", () => {
-     if (musicButtonClicked === false){
-         musicLogosId.style.display = 'block';
-         musicButtonClicked = true;         
-     } 
- });
-
+  if (musicButtonClicked === false) {
+    musicLogosId.style.display = "block";
+    musicButtonClicked = true;
+  }
+});
 gamesLogosButton.addEventListener("click", () => {
-    if (gamesButtonClicked === false){
-        gamesLogosId.style.display = 'block';
-        gamesButtonClicked = true;        
-    } 
+  if (gamesButtonClicked === false) {
+    gamesLogosId.style.display = "block";
+    gamesButtonClicked = true;
+  }
 });
 
 musicLogosId.addEventListener("mouseleave", () => {
-        musicLogosId.style.display = 'none'; 
-        musicButtonClicked = false;
+  musicLogosId.style.display = "none";
+  musicButtonClicked = false;
 });
 gamesLogosId.addEventListener("mouseleave", () => {
-    gamesLogosId.style.display = 'none'; 
-    gamesButtonClicked = false;
+  gamesLogosId.style.display = "none";
+  gamesButtonClicked = false;
 });
 
 logoNattsmyg.addEventListener("click", () => {
-    musicLogosId.style.display = 'none';  
+  musicLogosId.style.display = "none";
 });
 logoColloblast.addEventListener("click", () => {
-    musicLogosId.style.display = 'none';    
+  musicLogosId.style.display = "none";
 });
 
 logoStormshade.addEventListener("click", () => {
-   gamesLogosId.style.display = 'none';  
+  gamesLogosId.style.display = "none";
 });
 logoCosmicCompanions.addEventListener("click", () => {
-    gamesLogosId.style.display = 'none';    
+  gamesLogosId.style.display = "none";
 });
 logoMushroomMusical.addEventListener("click", () => {
-    gamesLogosId.style.display = 'none';    
+  gamesLogosId.style.display = "none";
 });
